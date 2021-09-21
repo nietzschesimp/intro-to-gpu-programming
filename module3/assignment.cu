@@ -157,13 +157,11 @@ int main(int argc, char** argv)
 	// Copy data from device to host
 	cudaMemcpy(result_host, res, sizeof(int)*ARRAY_SIZE, cudaMemcpyDeviceToHost );
 	
-	/*
 	// Print result
 	printf("Result:\n");
-	for (int i = 0; i < ARRAY_SIZE; i++) {
+	for (int i = 0; i < 10; i++) {
 		printf("%i\n", result_host[i]);
 	}
-	*/
 
 	// Free memory
 	cudaFree(in1);
