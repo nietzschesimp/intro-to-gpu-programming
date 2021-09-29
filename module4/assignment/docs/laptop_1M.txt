@@ -1,0 +1,269 @@
+----------------------------------------------------------
+------------------------- PINNED -------------------------
+----------------------------------------------------------
+------------------------- add -------------------------
+Number of inputs: 1048576
+Number of threads: 32
+Group size: 32768
+Average time to execute without transfer: .05862360000000000000 ms
+Average time to execute with transfer: 5.08731400000000000000 ms
+Number of inputs: 1048576
+Number of threads: 64
+Group size: 16384
+Average time to execute without transfer: .07379320000000000000 ms
+Average time to execute with transfer: 5.09519200000000000000 ms
+Number of inputs: 1048576
+Number of threads: 128
+Group size: 8192
+Average time to execute without transfer: .06179440000000000000 ms
+Average time to execute with transfer: 5.08371200000000000000 ms
+Number of inputs: 1048576
+Number of threads: 256
+Group size: 4096
+Average time to execute without transfer: .05457300000000000000 ms
+Average time to execute with transfer: 5.07291400000000000000 ms
+Number of inputs: 1048576
+Number of threads: 512
+Group size: 2048
+Average time to execute without transfer: .04290980000000000000 ms
+Average time to execute with transfer: 5.06002200000000000000 ms
+Number of inputs: 1048576
+Number of threads: 1024
+Group size: 1024
+Average time to execute without transfer: .04168060000000000000 ms
+Average time to execute with transfer: 5.05612400000000000000 ms
+------------------------- sub -------------------------
+Number of inputs: 1048576
+Number of threads: 32
+Group size: 32768
+Average time to execute without transfer: .04190420000000000000 ms
+Average time to execute with transfer: 5.06809600000000000000 ms
+Number of inputs: 1048576
+Number of threads: 64
+Group size: 16384
+Average time to execute without transfer: .04446020000000000000 ms
+Average time to execute with transfer: 5.06485400000000000000 ms
+Number of inputs: 1048576
+Number of threads: 128
+Group size: 8192
+Average time to execute without transfer: .03811880000000000000 ms
+Average time to execute with transfer: 5.05665600000000000000 ms
+Number of inputs: 1048576
+Number of threads: 256
+Group size: 4096
+Average time to execute without transfer: .04398540000000000000 ms
+Average time to execute with transfer: 5.06242400000000000000 ms
+Number of inputs: 1048576
+Number of threads: 512
+Group size: 2048
+Average time to execute without transfer: .04265800000000000000 ms
+Average time to execute with transfer: 5.05996600000000000000 ms
+Number of inputs: 1048576
+Number of threads: 1024
+Group size: 1024
+Average time to execute without transfer: .04155480000000000000 ms
+Average time to execute with transfer: 5.05681000000000000000 ms
+------------------------- mul -------------------------
+Number of inputs: 1048576
+Number of threads: 32
+Group size: 32768
+Average time to execute without transfer: .04531200000000000000 ms
+Average time to execute with transfer: 5.07252600000000000000 ms
+Number of inputs: 1048576
+Number of threads: 64
+Group size: 16384
+Average time to execute without transfer: .05367920000000000000 ms
+Average time to execute with transfer: 5.07386800000000000000 ms
+Number of inputs: 1048576
+Number of threads: 128
+Group size: 8192
+Average time to execute without transfer: .04018580000000000000 ms
+Average time to execute with transfer: 5.07337800000000000000 ms
+Number of inputs: 1048576
+Number of threads: 256
+Group size: 4096
+Average time to execute without transfer: .03978060000000000000 ms
+Average time to execute with transfer: 5.05815200000000000000 ms
+Number of inputs: 1048576
+Number of threads: 512
+Group size: 2048
+Average time to execute without transfer: .03955720000000000000 ms
+Average time to execute with transfer: 5.05821200000000000000 ms
+Number of inputs: 1048576
+Number of threads: 1024
+Group size: 1024
+Average time to execute without transfer: .04855280000000000000 ms
+Average time to execute with transfer: 5.06399400000000000000 ms
+------------------------- mod -------------------------
+Number of inputs: 1048576
+Number of threads: 32
+Group size: 32768
+Average time to execute without transfer: .03922240000000000000 ms
+Average time to execute with transfer: 5.06581000000000000000 ms
+Number of inputs: 1048576
+Number of threads: 64
+Group size: 16384
+Average time to execute without transfer: .04236500000000000000 ms
+Average time to execute with transfer: 5.06241600000000000000 ms
+Number of inputs: 1048576
+Number of threads: 128
+Group size: 8192
+Average time to execute without transfer: .03883120000000000000 ms
+Average time to execute with transfer: 5.05809800000000000000 ms
+Number of inputs: 1048576
+Number of threads: 256
+Group size: 4096
+Average time to execute without transfer: .04370600000000000000 ms
+Average time to execute with transfer: 5.06184400000000000000 ms
+Number of inputs: 1048576
+Number of threads: 512
+Group size: 2048
+Average time to execute without transfer: .04547980000000000000 ms
+Average time to execute with transfer: 5.06255600000000000000 ms
+Number of inputs: 1048576
+Number of threads: 1024
+Group size: 1024
+Average time to execute without transfer: .04186240000000000000 ms
+Average time to execute with transfer: 5.05673000000000000000 ms
+---------------------------------------------------------
+------------------------- PAGED -------------------------
+---------------------------------------------------------
+------------------------- add -------------------------
+Number of inputs: 1048576
+Number of threads: 32
+Group size: 32768
+Average time to execute without transfer: .02732140000000000000 ms
+Average time to execute with transfer: 77.39220000000000000000 ms
+Number of inputs: 1048576
+Number of threads: 64
+Group size: 16384
+Average time to execute without transfer: .02993340000000000000 ms
+Average time to execute with transfer: 90.36384000000000000000 ms
+Number of inputs: 1048576
+Number of threads: 128
+Group size: 8192
+Average time to execute without transfer: .03067360000000000000 ms
+Average time to execute with transfer: 81.86136000000000000000 ms
+Number of inputs: 1048576
+Number of threads: 256
+Group size: 4096
+Average time to execute without transfer: .02338220000000000000 ms
+Average time to execute with transfer: 87.67276000000000000000 ms
+Number of inputs: 1048576
+Number of threads: 512
+Group size: 2048
+Average time to execute without transfer: .02948660000000000000 ms
+Average time to execute with transfer: 82.70838000000000000000 ms
+Number of inputs: 1048576
+Number of threads: 1024
+Group size: 1024
+Average time to execute without transfer: .03056240000000000000 ms
+Average time to execute with transfer: 81.86118000000000000000 ms
+------------------------- sub -------------------------
+Number of inputs: 1048576
+Number of threads: 32
+Group size: 32768
+Average time to execute without transfer: .02727960000000000000 ms
+Average time to execute with transfer: 77.67570000000000000000 ms
+Number of inputs: 1048576
+Number of threads: 64
+Group size: 16384
+Average time to execute without transfer: .03207060000000000000 ms
+Average time to execute with transfer: 87.80334000000000000000 ms
+Number of inputs: 1048576
+Number of threads: 128
+Group size: 8192
+Average time to execute without transfer: .03001720000000000000 ms
+Average time to execute with transfer: 86.61942000000000000000 ms
+Number of inputs: 1048576
+Number of threads: 256
+Group size: 4096
+Average time to execute without transfer: .02417840000000000000 ms
+Average time to execute with transfer: 81.43014000000000000000 ms
+Number of inputs: 1048576
+Number of threads: 512
+Group size: 2048
+Average time to execute without transfer: .03306180000000000000 ms
+Average time to execute with transfer: 81.88632000000000000000 ms
+Number of inputs: 1048576
+Number of threads: 1024
+Group size: 1024
+Average time to execute without transfer: .03032440000000000000 ms
+Average time to execute with transfer: 77.75056000000000000000 ms
+------------------------- mul -------------------------
+Number of inputs: 1048576
+Number of threads: 32
+Group size: 32768
+Average time to execute without transfer: .02624600000000000000 ms
+Average time to execute with transfer: 81.65224000000000000000 ms
+Number of inputs: 1048576
+Number of threads: 64
+Group size: 16384
+Average time to execute without transfer: .02607820000000000000 ms
+Average time to execute with transfer: 86.41632000000000000000 ms
+Number of inputs: 1048576
+Number of threads: 128
+Group size: 8192
+Average time to execute without transfer: .02811780000000000000 ms
+Average time to execute with transfer: 78.18996000000000000000 ms
+Number of inputs: 1048576
+Number of threads: 256
+Group size: 4096
+Average time to execute without transfer: .02335440000000000000 ms
+Average time to execute with transfer: 91.72652000000000000000 ms
+Number of inputs: 1048576
+Number of threads: 512
+Group size: 2048
+Average time to execute without transfer: .02824360000000000000 ms
+Average time to execute with transfer: 76.62170000000000000000 ms
+Number of inputs: 1048576
+Number of threads: 1024
+Group size: 1024
+Average time to execute without transfer: .03074360000000000000 ms
+Average time to execute with transfer: 82.49796000000000000000 ms
+------------------------- mod -------------------------
+Number of inputs: 1048576
+Number of threads: 32
+Group size: 32768
+Average time to execute without transfer: .02364800000000000000 ms
+Average time to execute with transfer: 77.59534000000000000000 ms
+Number of inputs: 1048576
+Number of threads: 64
+Group size: 16384
+Average time to execute without transfer: .02857860000000000000 ms
+Average time to execute with transfer: 89.53488000000000000000 ms
+Number of inputs: 1048576
+Number of threads: 128
+Group size: 8192
+Average time to execute without transfer: .02813160000000000000 ms
+Average time to execute with transfer: 82.97342000000000000000 ms
+Number of inputs: 1048576
+Number of threads: 256
+Group size: 4096
+Average time to execute without transfer: .02740520000000000000 ms
+Average time to execute with transfer: 85.56254000000000000000 ms
+Number of inputs: 1048576
+Number of threads: 512
+Group size: 2048
+Average time to execute without transfer: .02653960000000000000 ms
+Average time to execute with transfer: 77.54554000000000000000 ms
+Number of inputs: 1048576
+Number of threads: 1024
+Group size: 1024
+Average time to execute without transfer: .03074360000000000000 ms
+Average time to execute with transfer: 82.03256000000000000000 ms
+---------------------------------------------------------
+-------------------------- CPU --------------------------
+---------------------------------------------------------
+------------------------- add -------------------------
+Number of inputs: 1048576
+Average time to execute: 6.48748600000000000000 ms
+------------------------- sub -------------------------
+Number of inputs: 1048576
+Average time to execute: 6.37328200000000000000 ms
+------------------------- mul -------------------------
+Number of inputs: 1048576
+Average time to execute: 6.56365200000000000000 ms
+------------------------- mod -------------------------
+Number of inputs: 1048576
+Average time to execute: 10.81778000000000000000 ms
