@@ -42,9 +42,9 @@ int main(int argc, char** argv) {
 
 	// Allocate memory in device for variables
   int *device_a, *device_b, *device_result; 
-  cudaMalloc( ( void**)& device_a, 			array_size * sizeof ( *device_a ) ); 
-  cudaMalloc( ( void**)& device_b, 			array_size * sizeof ( *device_b ) ); 
-  cudaMalloc( ( void**)& device_result, array_size * sizeof ( *device_result ) ); 
+  cudaMalloc((void**)& device_a, 			array_size * sizeof(*device_a)); 
+  cudaMalloc((void**)& device_b, 			array_size * sizeof(*device_b)); 
+  cudaMalloc((void**)& device_result, array_size * sizeof(*device_result)); 
 
 	// Allocate memory on host
   int *host_a, *host_b, *host_result; 
@@ -79,24 +79,24 @@ int main(int argc, char** argv) {
   cudaEventRecord(start);
 
   // Copy data to device
-  cudaMemcpyAsync(device_a, host_a, array_size * sizeof ( int ), cudaMemcpyHostToDevice, stream); 
-  cudaMemcpyAsync(device_b, host_b, array_size * sizeof ( int ), cudaMemcpyHostToDevice, stream); 
+  cudaMemcpyAsync(device_a, host_a, array_size * sizeof(int), cudaMemcpyHostToDevice, stream); 
+  cudaMemcpyAsync(device_b, host_b, array_size * sizeof(int), cudaMemcpyHostToDevice, stream); 
 
 	// Record start of kernel time
   cudaEventRecord(kernel_start);
 
 	// Select which kernel
 	if (op == "add") {
-		add_kernel_shr_i32<<< num_blocks, total_threads, 3*total_threads*sizeof(int), stream >>>(device_result, device_a, device_b, array_size);
+		add_kernel_shr_i32<<< num_blocks, total_threads, 3 * total_threads * sizeof(int), stream >>>(device_result, device_a, device_b, array_size);
 	}
 	else if (op == "sub") {
-		sub_kernel_shr_i32<<< num_blocks, total_threads, 3*total_threads*sizeof(int), stream >>>(device_result, device_a, device_b, array_size);
+		sub_kernel_shr_i32<<< num_blocks, total_threads, 3 * total_threads * sizeof(int), stream >>>(device_result, device_a, device_b, array_size);
 	}
 	else if (op == "mul") {
-		mul_kernel_shr_i32<<< num_blocks, total_threads, 3*total_threads*sizeof(int), stream >>>(device_result, device_a, device_b, array_size);
+		mul_kernel_shr_i32<<< num_blocks, total_threads, 3 * total_threads * sizeof(int), stream >>>(device_result, device_a, device_b, array_size);
 	}
 	else if (op == "mod") {
-		mod_kernel_shr_i32<<< num_blocks, total_threads, 3*total_threads*sizeof(int), stream >>>(device_result, device_a, device_b, array_size);
+		mod_kernel_shr_i32<<< num_blocks, total_threads, 3 * total_threads * sizeof(int), stream >>>(device_result, device_a, device_b, array_size);
 	}
 
 	// Record stop of kernel

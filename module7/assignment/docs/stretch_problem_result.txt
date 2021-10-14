@@ -1,0 +1,58 @@
+Print of all CUDA devices and device properties
+============Start Device 1============
+Name:                          
+Total global memory:           3432
+Total shared memory per block: 47
+Total registers per block:     1192258720
+Warp size:                     21874
+Maximum memory pitch:          93949306895520
+Maximum threads per block:     4096
+Maximum dimension 0 of block: 0
+Maximum dimension 1 of block: 4096
+Maximum dimension 2 of block: 0
+Maximum dimension 0 of grid:  846370464
+Maximum dimension 1 of grid:  32763
+Maximum dimension 2 of grid:  844897949
+Total constant memory:         64769
+Major revision number:         1442368
+Minor revision number:         0
+Clock rate:                    32763
+Texture alignment:             1
+Concurrent copy and execution: Yes
+Number of multiprocessors:     0
+Kernel execution timeout:      No
+Integrated:                    No
+Mapable Host Memory:           No
+Compute Mode:                  0
+Concurrent Kernels:            47
+ECC Enabled:                   No
+pci Bus ID:                    47
+pci Device ID:                 0
+Using a tcc Driver:            Yes
+============End Device 1============
+Input value: 3, device output: 9
+Input value: 6, device output: 36
+Input value: 7, device output: 49
+Input value: 5, device output: 25
+Input value: 3, device output: 9
+Input value: 5, device output: 25
+Input value: 6, device output: 36
+Input value: 2, device output: 4
+Input value: 9, device output: 81
+Input value: 1, device output: 1
+Input value: 2, device output: 4
+Input value: 7, device output: 49
+Input value: 0, device output: 0
+Input value: 9, device output: 81
+Input value: 3, device output: 9
+Input value: 6, device output: 36
+========================
+Summary
+Total Threads: 8
+Total Blocks: 1
+========================
+Time to copy global to shared mem, perform simple operation w/ shared memory, copy memory back to global
+duration: 0.208544ms
+========================
+Time to copy global to register mem, perform simple operation w/ register memory, copy memory back to global
+duration: 0.292544ms

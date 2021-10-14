@@ -15,7 +15,7 @@ KEYWORD_TIME_NO_TRANSFER="\(.*\)"
 OPS="add sub mul mod"
 
 NOTHREADS="32 64 128 256 512 1024"
-INSIZE=1024
+INSIZE=4096
 
 
 function run_test() {
@@ -67,6 +67,7 @@ run_test "CONSTANT" "./build/src/const_memory"
 run_test "PINNED" "./build/src/pinned_memory"
 run_test "PINNED+SHARED" "./build/src/shared_memory"
 run_test "REGISTER" "./build/src/register_memory"
+run_test "STREAM+SHARED" "./build/src/cuda_streams"
 
 echo "----------------------------------------------------------------"
 echo "| CPU"
