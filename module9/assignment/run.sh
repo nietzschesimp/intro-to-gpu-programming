@@ -57,4 +57,4 @@ run_test "THRIFT: mod" "./build/src/operations_thrust" "-o mod -s $INSIZE"
 run_test "2D Filter" "./build/src/npp_convolution" "-i docs/Lena.pgm"
 
 # Test nvGRAPH triangle count
-run_test "NVGRAPH Triangle" "./build/src/triangle_count" ""
+#run_test "NVGRAPH Triangle" "./build/src/triangle_count" ""
