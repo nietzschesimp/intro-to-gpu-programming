@@ -11,7 +11,7 @@ target_link_libraries(npp_convolution PUBLIC ${CUDA_CUDART_LIBRARY}
 target_include_directories(npp_convolution PUBLIC ${CUDA_INCLUDE_DIRS})
 set_property(TARGET npp_convolution PROPERTY CUDA_STANDARD 11)
 
-add_executable(triangle_count triangle_count.cu)
-target_link_libraries(triangle_count PUBLIC ${CUDA_CUDART_LIBRARY} nvgraph)
-target_include_directories(triangle_count PUBLIC ${CUDA_INCLUDE_DIRS})
-set_property(TARGET triangle_count PROPERTY CUDA_STANDARD 11)
+#add_executable(triangle_count triangle_count.cu)
+#target_link_libraries(triangle_count PUBLIC ${CUDA_CUDART_LIBRARY} nvgraph)
+#target_include_directories(triangle_count PUBLIC ${CUDA_INCLUDE_DIRS})
+#set_property(TARGET triangle_count PROPERTY CUDA_STANDARD 11)

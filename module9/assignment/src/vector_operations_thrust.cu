@@ -1,6 +1,7 @@
 #include <thrust/device_vector.h>
 #include <thrust/host_vector.h>
 #include <thrust/generate.h>
+#include <thrust/sequence.h>
 #include <iostream>
 #include <string>
 #include <chrono>
