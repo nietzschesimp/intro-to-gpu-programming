@@ -1,4 +1,4 @@
-
+# Create executable for vector operations
 add_executable(vector_operations vector_operations.cc)
 target_include_directories(vector_operations PUBLIC ${OpenCL_INCLUDE_DIRS})
 target_link_libraries(vector_operations PUBLIC ${OpenCL_LIBRARIES})
